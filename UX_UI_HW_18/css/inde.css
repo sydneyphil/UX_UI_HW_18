@@ -1,0 +1,138 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+}
+.button1 {
+    padding: 12px 16px;
+    margin-right: 5%;
+    border-style: none;
+    font-size:25px;
+    color: #6A3C6A;;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+.barkButton:hover {
+    background-color:#986898;
+    color:white;
+    transition: 0.5s;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+   width: 10%;
+}
+.logopic {
+    max-width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.divbuttons {
+   display: flex;
+   justify-content:flex-end;
+}
+.workTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 1%;
+    font-size:40px;
+    color:#6A3C6A;
+}
+.project1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.barkBooker {
+  width: 40%;
+  margin:5%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.barkButton {
+    color:#ffffff;
+    background-color: #6A3C6A;
+    height: 50px;
+    width: 175px;
+    font-size: 15px;
+}
+.h2 {
+    display: inline-block;
+    margin: 2;
+    font-size: 45px;
+    color:#6A3C6A;
+}
+.barkIntro {
+    font-size: 25px;
+    margin-right: 15%;
+}
+.project2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.govWebsite {
+  width: 40%;
+  margin:5%;
+}
+.h3 {
+    display: inline-block;
+    margin: 2;
+    font-size: 45px;
+    color:#6A3C6A;
+}
+.govIntro {
+    font-size: 25px;
+    margin-right: 15%;
+}
+.project3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mainPlace {
+  width: 40%;
+  margin:5%;
+}
+.h4 {
+    display: inline-block;
+    margin: 2;
+    font-size: 45px;
+    color:#6A3C6A;
+}
+.mainIntro {
+    font-size: 25px;
+    margin-right: 15%;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    align-items: flex-end;
+}
+.button2 {
+    padding: 12px 16px;
+    margin-right: 5%;
+    border-style: none;
+    font-size:25px;
+    color: #6A3C6A;;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+.button2:hover {
+background-color:#6A3C6A;
+color:white;
+}
+.footerbuttons {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
